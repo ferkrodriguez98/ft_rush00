@@ -6,11 +6,13 @@
 /*   By: bstoute <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/14 01:50:44 by bstoute           #+#    #+#             */
-/*   Updated: 2018/01/14 04:59:16 by bstoute          ###   ########.fr       */
+/*   Updated: 2018/01/14 18:13:17 by frodrigu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+
+int	ft_putchar(char c);
 
 int	first_line(int x)
 {

@@ -6,14 +6,14 @@
 /*   By: bstoute <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/14 04:27:23 by bstoute           #+#    #+#             */
-/*   Updated: 2018/01/14 04:28:27 by bstoute          ###   ########.fr       */
+/*   Updated: 2018/01/14 18:15:05 by frodrigu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int ft_putchar(char c)
+int	ft_putchar(char c)
 {
 	write(1, &c, 1);
-	return(0);
+	return (0);
 }
